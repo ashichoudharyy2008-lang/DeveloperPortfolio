@@ -33,3 +33,31 @@
 
 Successfully retrieved data from two public REST APIs
 using curl and processed JSON responses using jq.
+
+## 4. REST API Explanation
+
+A REST API (Representational State Transfer API) allows
+different applications to communicate and exchange data
+over the internet using HTTP requests. It commonly uses
+JSON format to send and receive structured information.
+
+## 5. HTTP Status Codes
+
+- 200 OK: The request was successful and the server
+  returned the requested data.
+- 404 Not Found: The requested resource could not be
+  found on the server.
+
+## 6. jq Filter Explanation
+
+The following jq filter was used:
+
+`{name:.name, repos:.public_repos, followers:.followers, joined:.created_at}`
+
+- name:.name extracts the GitHub user's name.
+- repos:.public_repos extracts the number of public repositories.
+- followers:.followers extracts the follower count.
+- joined:.created_at extracts the account creation date.
+
+The jq tool processes JSON data and extracts specific
+fields in a readable format.
