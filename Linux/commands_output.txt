@@ -1,0 +1,100 @@
+========== ls -la ~ ==========
+total 112
+drwxr-x---+  29 ashy  staff    928 25 Nov 22:50 .
+drwxr-xr-x    5 root  admin    160  3 Sep 02:49 ..
+drwxr-xr-x@  10 ashy  staff    320  2 Sep 13:27 .arduinoIDE
+-r--------    1 ashy  staff      7 14 Jun 20:22 .CFUserTextEncoding
+drwxr-xr-x@   3 ashy  staff     96 26 Oct 06:38 .config
+drwx------@   3 ashy  staff     96 15 Jun 15:00 .copilot
+-rw-r--r--@   1 ashy  staff  14340 21 Sep 21:38 .DS_Store
+-rw-r--r--    1 ashy  staff     90 26 Oct 15:04 .gitconfig
+-rw-------    1 ashy  staff     20  3 Nov 22:57 .lesshst
+drwx------+  59 ashy  staff   1888 17 Nov 20:02 .Trash
+drwxr-xr-x@   5 ashy  staff    160 15 Jun 14:22 .vscode
+drwxr-xr-x@   3 ashy  staff     96 15 Jun 14:22 .vscode-shared
+-rw-r--r--    1 ashy  staff    332  1 Sep 19:51 .zprofile
+-rw-r--r--    1 ashy  staff    166  1 Sep 18:17 .zprofile.pysave
+-rw-------    1 ashy  staff  18102 25 Nov 22:10 .zsh_history
+drwx------    8 ashy  staff    256 25 Nov 22:50 .zsh_sessions
+drwxr-xr-x@   5 ashy  staff    160 26 Oct 06:38 Applications
+drwxr-xr-x    6 ashy  staff    192  2 Sep 15:05 chapter_1_python
+drwxr-xr-x    5 ashy  staff    160  4 Oct 20:17 compilation_lab
+drwxr-xr-x    4 ashy  staff    128 26 Oct 15:05 cse103_lab
+drwx------+ 184 ashy  staff   5888 25 Nov 23:09 Desktop
+drwx------@  40 ashy  staff   1280  7 Oct 15:19 Documents
+drwx------+  80 ashy  staff   2560 23 Nov 23:30 Downloads
+drwx------@  87 ashy  staff   2784 26 Oct 06:28 Library
+drwx------    4 ashy  staff    128 14 Jun 22:46 Movies
+drwx------+   4 ashy  staff    128 14 Jun 22:34 Music
+drwx------+   5 ashy  staff    160 14 Jun 20:46 Pictures
+drwxr-xr-x+   4 ashy  staff    128 14 Jun 20:22 Public
+drwxr-xr-x@   2 ashy  staff     64 26 Oct 06:47 SystemModeler
+
+========== ps aux | head -10 ==========
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver      411   3.1  1.3 440039248 212384   ??  Ss    4Oct26 629:39.22 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+ashy               670   2.7  0.1 435643872  23488   ??  S     4Oct26  83:39.82 /System/Applications/Utilities/Activity Monitor.app/Contents/MacOS/Activity Monitor
+ashy             83707   1.6  3.1 511729040 527104   ??  Ss   Sun09PM  24:17.28 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+root               381   0.3  0.1 435361504  10880   ??  Ss    4Oct26  18:58.41 /System/Library/CoreServices/launchservicesd
+ashy               745   0.3  0.5 440416368  84912   ??  Ss    4Oct26 116:57.99 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+root               935   0.2  0.0 435321792   2176   ??  Ss    4Oct26  94:56.78 /usr/libexec/sysmond
+_driverkit       59993   0.2  0.3 435319296  42640   ??  Ss   25Oct26  43:19.00 /System/Library/DriverExtensions/AppleCentauriAlpha.dext/AppleCentauriAlpha com.apple.driver.AppleCentauriAlpha 0x100031db9 com.apple.driver.AppleCentauriAlpha
+ashy             84548   0.1  0.6 442302720 101616   ??  Ss   Mon08PM  12:06.35 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU
+root               406   0.1  0.0 435357040   6400   ??  Ss    4Oct26  13:53.08 /usr/libexec/corebrightnessd --launchd
+
+========== df -h ==========
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   460Gi    15Gi   356Gi     5%    459k  3.7G    0%   /
+devfs            207Ki   207Ki     0Bi   100%     716     0  100%   /dev
+/dev/disk3s6     460Gi   3.0Gi   356Gi     1%       3  3.7G    0%   /System/Volumes/VM
+/dev/disk3s2     460Gi    16Gi   356Gi     5%    1.7k  3.7G    0%   /System/Volumes/Preboot
+/dev/disk3s4     460Gi   1.0Gi   356Gi     1%     519  3.7G    0%   /System/Volumes/Update
+/dev/disk1s2     550Mi   6.0Mi   528Mi     2%       1  5.4M    0%   /System/Volumes/xarts
+/dev/disk1s1     550Mi   5.9Mi   528Mi     2%      42  5.4M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     550Mi   5.8Mi   528Mi     2%     902  5.4M    0%   /System/Volumes/Hardware
+/dev/disk3s5     460Gi    66Gi   356Gi    16%    653k  3.7G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/dev/disk4s1     1.1Gi   1.0Gi    80Mi    93%    8.0k  4.3G    0%   /Volumes/VS Code
+/dev/disk5s1     100Mi    73Mi    27Mi    73%     574  4.3G    0%   /Volumes/Autodesk Fusion Installer
+/dev/disk2s1     5.0Gi   1.3Gi   3.7Gi    26%      49   39M    0%   /System/Volumes/Update/SFR/mnt1
+/dev/disk3s1     460Gi    15Gi   356Gi     5%    459k  3.7G    0%   /System/Volumes/Update/mnt1
+
+========== MEMORY INFORMATION (macOS equivalent) ==========
+Mach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                                     7648.
+Pages active:                                 236492.
+Pages inactive:                               231649.
+Pages speculative:                               689.
+Pages throttled:                                   0.
+Pages wired down:                             154812.
+Pages purgeable:                               20985.
+"Translation faults":                     1744832625.
+Pages copy-on-write:                       199645001.
+Pages zero filled:                        1190689582.
+Pages reactivated:                         206564630.
+Pages purged:                              118074300.
+File-backed pages:                            149367.
+Anonymous pages:                              319463.
+Pages stored in compressor:                  1618174.
+Pages occupied by compressor:                 375445.
+Decompressions:                            446016687.
+Compressions:                              483980014.
+Pageins:                                    33381237.
+Pageouts:                                    1220104.
+Swapins:                                     1034961.
+Swapouts:                                    1312269.
+Pages tagged:                                 161498.
+Pages tagged resident:                        105692.
+Pages tagged compressed:                       55806.
+Pages tag-storage:                             32768.
+Pages tag-storage holding tags:                 7690.
+Pages tag-storage free:                          434.
+Pages tag-storage non-tag pageable:            24560.
+Pages tag-storage non-tag wired:                  84.
+Bytes of compressed tags:                    8248768.
+Tagged compressions:                        25821249.
+Tagged decompressions:                      25158666.
+
+========== MEMORY PRESSURE ==========
+The system has 17179869184 (1048576 pages with a page size of 16384).
+System-wide memory free percentage: 47%
