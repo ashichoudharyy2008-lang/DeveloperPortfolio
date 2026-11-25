@@ -31,3 +31,20 @@ See [LEARNING_ROADMAP.md](./LEARNING_ROADMAP.md) for my learning plan.
 ## Progress Tracker
 
 See [PROGRESS.md](./PROGRESS.md) for coding progress.
+
+---
+
+## DeveloperPortfolio Assignment Sections
+
+| Section | Description |
+|---|---|
+| Linux | System information, Linux commands and binary conversions |
+| ShellScripts | System information reporting and automated folder backup |
+| API | GitHub and JSONPlaceholder REST API integration |
+| Portfolio | Technical resume, learning roadmap and portfolio website |
+
+## Connect With Me
+
+- GitHub: [Ashi Choudhary](https://github.com/ashichoudharyy2008-lang)
+- LinkedIn: [Ashi Choudhary](https://www.linkedin.com/in/ashi-choudhary-a75821430)
+
