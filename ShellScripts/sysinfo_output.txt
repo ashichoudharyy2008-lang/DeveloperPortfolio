@@ -1,0 +1,24 @@
+==========================================
+       SYSTEM INFORMATION REPORT
+Name: Ashi Choudhary
+Roll Number: 2601730018
+Date: Wed Nov 25 23:15:29 IST 2026
+==========================================
+
+CPU INFORMATION
+CPU Model: Apple M5
+CPU Cores: 10
+
+MEMORY INFORMATION
+Total Memory: 16.00 GB
+Estimated Used Memory: 8.80 GB
+Free Memory Percentage: 45%
+
+TOP 3 PROCESSES BY CPU USAGE
+  6.3 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+  2.3 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+  1.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+
+==========================================
+Report generated successfully.
+==========================================
