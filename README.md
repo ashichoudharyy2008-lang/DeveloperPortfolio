@@ -13,7 +13,7 @@
 
 ---
 
-## Current Skills
+## Technical Skills and Area of Interests
 
 - Python
 - Linux / Bash
@@ -47,4 +47,4 @@ See [PROGRESS.md](./PROGRESS.md) for coding progress.
 
 - GitHub: [Ashi Choudhary](https://github.com/ashichoudharyy2008-lang)
 - LinkedIn: [Ashi Choudhary](https://www.linkedin.com/in/ashi-choudhary-a75821430)
-
+- Portfolio: [Visit My Website](https://ashichoudharyy2008-lang.github.io/DeveloperPortfolio/)
